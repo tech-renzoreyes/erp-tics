@@ -1,0 +1,28 @@
+.conten{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    justify-content: center; /* Centra horizontalmente */
+    overflow-y: auto; /*Agrega scroll cuando detecta tope*/
+ 
+}
+
+.componente-container {
+
+    height: 600px;
+   
+    
+  }
+
+  .card-modConf{
+    
+    width: 400px;
+  }
+
+  .card-modConf:hover{
+    border-color: aquamarine;
+  }
+ 
+  

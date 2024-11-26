@@ -1,0 +1,93 @@
+.seccion{
+    height: 100%;
+    background-color: #2c2d33;
+    width: 110%;
+    min-height: 100vh; /*DEFINE UN ALTO QUE ALMOMENTO DE HACER ZOOM NO SE ACABA*/
+    overflow-y: auto;/* SCROLL CAUTOMATICO EN UNA SECCION*/
+  }
+
+
+.listas-items{
+    padding-left: 2%;
+}
+
+
+
+
+.panel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    
+    padding-right: 2%;
+    
+  }
+
+  .custom-outline-primary {
+    /* Establece el tamaño y color del borde */
+    padding: 2px 15px; /* Establece el espacio interno (padding) alrededor del contenido */
+    /* Asegura que los elementos Link tengan el mismo ancho */
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: start;
+    /* Evita que el contenido exceda el tamaño del botón */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 30px;
+    
+  }
+
+  .custom-outline-primary:hover{
+    background-color: #35559e;
+  }
+  .custom-outline-primary:focus{
+    background-color: #53b153;
+  }
+
+  
+  .img {
+    height: 50px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-top: 15px;
+    
+  }
+  
+  .btn {
+    word-break: break-all; /* El texto se ajustará en varias líneas si es necesario */
+    
+  }
+  
+
+  .text{
+    color: #FFFFFF;
+    font-size: 25px;
+    
+  }
+
+
+
+.perfil-contenedor{
+    border-top: 5px solid #000; /* Línea en la parte superior del bloque */
+    border-bottom: 5px solid #000; /* Línea en la parte inferior del bloque */
+    padding: 15px; /* Espacio interno para mejorar el aspecto */
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.img-perfil{
+    height: 80px;
+    
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-top: 15px;
+}
+.text-perfil{
+    color: #FFFFFF;
+    font-size: 20px;
+}
